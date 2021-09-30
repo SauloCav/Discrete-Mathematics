@@ -1,3 +1,3 @@
 # Discrete-Mathematics
 
-Atividades desenvolvidas na disciplina Matemática Discreta
+Activities developed in the Discrete Mathematics subject
