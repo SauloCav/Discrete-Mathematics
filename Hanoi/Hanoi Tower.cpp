@@ -13,8 +13,6 @@ void mov(int x);
 
 int main(){
 	
-	setlocale(LC_ALL, "portuguese");
-	
 	int qd;
 	int op=8;
 	int z;
@@ -24,11 +22,11 @@ int main(){
 	printf("BEM VINDO A TORRE DE HANOI");
 	
 	printf("\n\n|1| Regras");
-	printf("\n|2| Cálculo de quantidade de movimentos");
-	printf("\n|3| Instrução dos movimentos");
+	printf("\n|2| Calculo de quantidade de movimentos");
+	printf("\n|3| Instrucao dos movimentos");
 	printf("\n|0| Sair");
 	
-	printf("\n\nEscolha uma das opções: ");
+	printf("\n\nEscolha uma das opcoes: ");
 	scanf("%d", &op);
 	
 	if(op==0){
@@ -91,7 +89,7 @@ int main(){
 		
 		default:{
 			
-		printf("\nVOCÊ INSERIU UM NÚMERO INVÁLIDO!");
+		printf("\nVOCE INSERIU UM NUMERO INVALIDO!");
 		
 		Sleep(2000);
 		
@@ -137,8 +135,8 @@ void mov(int x){
 	
 	m=(pow(2,x))-1;
 	
-	printf("\nNúmero de discos: %d", x);
-	printf("\nNúmero de movimentos necessários: %d", m);
+	printf("\nNumero de discos: %d", x);
+	printf("\nNumero de movimentos necessarios: %d", m);
 	
 }
 
