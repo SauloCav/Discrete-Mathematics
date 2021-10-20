@@ -56,7 +56,6 @@ void solve()
     for(int i = 0; i < rowA; i++)
     {
         if(!pivotZero(i)) 
-       // this is done because if the pivot in any row is zero which creates error
         {
             normalize(i);
         }
@@ -100,7 +99,6 @@ bool pivotZero(int row)
 
 void exchangeRow(int row)
 {
-  //  cout << "Exchanfged\n";
     int k = row+1;
     int great = row+1;
     while (k<rowA)
@@ -122,7 +120,6 @@ void exchangeRow(int row)
 }
 void normalize(int row)
 {
-    //cout << "normalized \n";
     double normal = a[row][row];
     for(int j = 0; j < colA+1; j++)
     {
@@ -132,11 +129,9 @@ void normalize(int row)
 }
 void makeBelowPivotZero(int row)
 {
-   // cout << "made zero" << endl;
     for(int i = row+1; i < rowA; i++)
     {
         double zeroFactor = a[i][row];
-   //     cout << "zero = " << zeroFactor<< endl;
         for(int j = 0; j < colA+1; j++)
         {
             a[i][j] -= zeroFactor*a[row][j];
