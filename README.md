@@ -1,5 +1,6 @@
 # Discrete-Mathematics
 
+### Tower of Hanoi
 The Tower of Hanoi is a mathematical game or puzzle consisting of three rods and a number of disks of various diameters, which can slide onto any rod. The puzzle begins with the disks stacked on one rod in order of decreasing size, the smallest at the top, thus approximating a conical shape. The objective of the puzzle is to move the entire stack to the last rod, obeying the following rules:
 
 Only one disk may be moved at a time.
